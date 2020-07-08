@@ -12,11 +12,11 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:3:5-66
-14-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:3:22-64
+14-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:3:5-66
+14-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:3:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[com.google.android.exoplayer:exoplayer-core:2.9.6] /Users/hobinh/.gradle/caches/transforms-2/files-2.1/45bb72aa3e328049bc9a8d9a1dd6232b/jetified-exoplayer-core-2.9.6/AndroidManifest.xml:24:5-79
-15-->[com.google.android.exoplayer:exoplayer-core:2.9.6] /Users/hobinh/.gradle/caches/transforms-2/files-2.1/45bb72aa3e328049bc9a8d9a1dd6232b/jetified-exoplayer-core-2.9.6/AndroidManifest.xml:24:22-76
+15-->[com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2a5a8f419023ba123cd345f6b897f047\jetified-exoplayer-core-2.9.6\AndroidManifest.xml:24:5-79
+15-->[com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2a5a8f419023ba123cd345f6b897f047\jetified-exoplayer-core-2.9.6\AndroidManifest.xml:24:22-76
 16    <!--
 17 io.flutter.app.FlutterApplication is an android.app.Application that
 18         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -25,30 +25,30 @@
 21         FlutterApplication and put your custom class here.
 22    -->
 23    <application
-23-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:9:5-47:19
+23-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:9:5-47:19
 24        android:name="io.flutter.app.FlutterApplication"
-24-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:10:9-57
+24-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:10:9-57
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-25-->[androidx.core:core:1.0.0] /Users/hobinh/.gradle/caches/transforms-2/files-2.1/0a271e99b6771ad4a84318244d532fb7/core-1.0.0/AndroidManifest.xml:22:18-86
+25-->[androidx.core:core:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0a271e99b6771ad4a84318244d532fb7\core-1.0.0\AndroidManifest.xml:22:18-86
 26        android:debuggable="true"
 27        android:icon="@mipmap/ic_launcher"
-27-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:12:9-43
+27-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:12:9-43
 28        android:label="aiphim" >
-28-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:11:9-31
+28-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:11:9-31
 29        <activity
-29-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:13:9-41:20
+29-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:13:9-41:20
 30            android:name="com.example.aiphim.MainActivity"
-30-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:14:13-41
+30-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:14:13-41
 31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-31-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:17:13-163
+31-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:17:13-163
 32            android:hardwareAccelerated="true"
-32-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:18:13-47
+32-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:18:13-47
 33            android:launchMode="singleTop"
-33-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:15:13-43
+33-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:15:13-43
 34            android:theme="@style/LaunchTheme"
-34-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:16:13-47
+34-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:16:13-47
 35            android:windowSoftInputMode="adjustResize" >
-35-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:19:13-55
+35-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:19:13-55
 36
 37            <!--
 38                 Specifies an Android theme to apply to this Activity as soon as
@@ -57,11 +57,11 @@
 41                 to determine the Window background behind the Flutter UI.
 42            -->
 43            <meta-data
-43-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:24:13-27:17
+43-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:24:13-27:17
 44                android:name="io.flutter.embedding.android.NormalTheme"
-44-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:25:15-70
+44-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:25:15-70
 45                android:resource="@style/NormalTheme" />
-45-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:26:15-52
+45-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:26:15-52
 46            <!--
 47                 Displays an Android View that continues showing the launch screen
 48                 Drawable until Flutter paints its first frame, then this splash
@@ -70,21 +70,21 @@
 51                 Flutter's first frame.
 52            -->
 53            <meta-data
-53-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:33:13-36:17
+53-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:33:13-36:17
 54                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-54-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:34:15-79
+54-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:34:15-79
 55                android:resource="@drawable/launch_background" />
-55-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:35:15-61
+55-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:35:15-61
 56
 57            <intent-filter>
-57-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:37:13-40:29
+57-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:37:13-40:29
 58                <action android:name="android.intent.action.MAIN" />
-58-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:38:17-68
-58-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:38:25-66
+58-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:38:17-68
+58-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:38:25-66
 59
 60                <category android:name="android.intent.category.LAUNCHER" />
-60-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:39:17-76
-60-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:39:27-74
+60-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:39:17-76
+60-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:39:27-74
 61            </intent-filter>
 62        </activity>
 63        <!--
@@ -92,11 +92,11 @@
 65             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 66        -->
 67        <meta-data
-67-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:44:9-46:33
+67-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:44:9-46:33
 68            android:name="flutterEmbedding"
-68-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:45:13-44
+68-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:45:13-44
 69            android:value="2" />
-69-->/Users/hobinh/Documents/GitHub/aigroup/aiphim/android/app/src/main/AndroidManifest.xml:46:13-30
+69-->G:\xampp\htdocs\aiphim\android\app\src\main\AndroidManifest.xml:46:13-30
 70    </application>
 71
 72</manifest>
