@@ -4,6 +4,8 @@ import 'package:aiphim/view/video.dart';
 Widget archivePlayer(BuildContext context){
   final double width = 130;
   return InkWell(
+    borderRadius: BorderRadius.circular(10),
+    splashColor: agDarkOrange,
     onTap: (){
       Navigator.push(
         context,
