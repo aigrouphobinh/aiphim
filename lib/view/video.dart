@@ -3,12 +3,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
-void main() {
-  runApp(
-    ChewieDemo(),
-  );
-}
-
 class ChewieDemo extends StatefulWidget {
   ChewieDemo({this.title = 'Chewie Demo'});
 
@@ -72,6 +66,13 @@ class _ChewieDemoState extends State<ChewieDemo> {
       home: Scaffold(
         appBar: AppBar(
           title: Text(widget.title),
+        ),
+        floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
+        floatingActionButton: Container(
+          width: 100,
+          height: 100,
+          child: Chewie(
+            controller: _chewieController,),
         ),
         body: Column(
           children: <Widget>[

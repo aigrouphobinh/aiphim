@@ -25,6 +25,12 @@ class _MainAppState extends State<MainApp> {
     // TODO: implement build
     return MaterialApp(
       title: "AiPhim",
+      theme: ThemeData(
+        textTheme: Theme.of(context).textTheme.apply(
+          fontFamily: "Kozuka Gothic Pr6N",
+          fontSizeFactor: 0.9,
+        ),
+      ),
       debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => Homepage(),

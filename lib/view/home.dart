@@ -15,6 +15,7 @@ class _StateHomepage extends State<Homepage>{
         backgroundColor: agDarkPurple,
         elevation: 0,
         title: Container(
+          height: 40,
           child: Row(
             children: <Widget>[
               Expanded(
@@ -33,7 +34,7 @@ class _StateHomepage extends State<Homepage>{
                     hintStyle: TextStyle(color: agWhite,fontStyle: FontStyle.italic),
                     fillColor:agRoyalPurple,
                     counterStyle: TextStyle(color: agWhite),
-                    contentPadding: EdgeInsets.all(0),
+                    contentPadding: EdgeInsets.all(5),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(100),
                       borderSide: BorderSide(color: agRoyalPurple)
@@ -54,10 +55,11 @@ class _StateHomepage extends State<Homepage>{
               ),
               Container(
                 margin: EdgeInsets.only(left: 10),
-                height: 50,
-                width: 50,
+                height: 40,
+                width: 40,
                 child: Card(
                   elevation: 0,
+                  margin: EdgeInsets.all(0),
                   clipBehavior: Clip.antiAliasWithSaveLayer,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(8),
@@ -76,6 +78,75 @@ class _StateHomepage extends State<Homepage>{
           children: <Widget>[
             Center(
               child: topCarousel(),
+            ),
+            Container(
+              padding: EdgeInsets.all(10),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                Text("Top phim",style: TextStyle(fontSize: 18,color: agWhite,fontWeight: FontWeight.bold),),
+                Row(
+                  children: <Widget>[
+                    Text("xem tất cả",style: TextStyle(color: agWhite),),
+                    Icon(Icons.arrow_right,color: agDarkOrange,)
+                  ],
+                )
+              ],),
+            ),
+            Container(
+              height: 170,
+              child: ListView.builder(
+                itemCount: 5,
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (BuildContext context, int index)=>
+                    archivePlayer(context),
+              ),
+            ),
+            Container(
+              padding: EdgeInsets.all(5),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Text("Hành động",style: TextStyle(fontSize: 18,color: agWhite,fontWeight: FontWeight.bold),),
+                  Row(
+                    children: <Widget>[
+                      Text("xem tất cả",style: TextStyle(color: agWhite),),
+                      Icon(Icons.arrow_right,color: agDarkOrange,)
+                    ],
+                  )
+                ],),
+            ),
+            Container(
+              height: 170,
+              child: ListView.builder(
+                itemCount: 5,
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (BuildContext context, int index)=>
+                    archivePlayer(context),
+              ),
+            ),
+            Container(
+              padding: EdgeInsets.all(5),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Text("Viễn tưởng",style: TextStyle(fontSize: 18,color: agWhite,fontWeight: FontWeight.bold),),
+                  Row(
+                    children: <Widget>[
+                      Text("xem tất cả",style: TextStyle(color: agWhite),),
+                      Icon(Icons.arrow_right,color: agDarkOrange,)
+                    ],
+                  )
+                ],),
+            ),
+            Container(
+              height: 170,
+              child: ListView.builder(
+                itemCount: 5,
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (BuildContext context, int index)=>
+                    archivePlayer(context),
+              ),
             )
 
           ],
