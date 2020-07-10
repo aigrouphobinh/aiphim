@@ -86,7 +86,7 @@ class _StateHomepage extends State<Homepage>{
   Widget topCarousel (){
     return Container(
         height: 200,
-        width: MediaQuery.of(context).size.width-40,
+        width: MediaQuery.of(context).size.width-20,
         child: Card(
           clipBehavior: Clip.antiAliasWithSaveLayer,
           shape: RoundedRectangleBorder(
