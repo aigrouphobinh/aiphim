@@ -2,3 +2,6 @@
 .dart_tool/flutter_build/
 /build/
 /build/*.*
+/ios/*.*
+/ios/
+/.idea/
