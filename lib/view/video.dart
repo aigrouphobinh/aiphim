@@ -29,7 +29,7 @@ class _ChewieDemoState extends State<ChewieDemo> {
         'https://www.w3schools.com/html/movie.mp4');
     _chewieController = ChewieController(
       videoPlayerController: _videoPlayerController1,
-      aspectRatio: 3 / 2,
+      aspectRatio: 16 / 9,
       autoPlay: true,
       looping: true,
       // Try playing around with some of these other options:
@@ -61,27 +61,23 @@ class _ChewieDemoState extends State<ChewieDemo> {
     return MaterialApp(
       title: widget.title,
       theme: ThemeData.light().copyWith(
-        platform: _platform ?? Theme.of(context).platform,
+        platform: TargetPlatform.iOS,
       ),
       home: Scaffold(
         appBar: AppBar(
           title: Text(widget.title),
         ),
-        floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
-        floatingActionButton: Container(
-          width: 100,
-          height: 100,
-          child: Chewie(
-            controller: _chewieController,),
-        ),
+//        floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
+//        floatingActionButton: Container(
+//          width: 100,
+//          height: 100,
+//          child: Chewie(
+//            controller: _chewieController,),
+//        ),
         body: Column(
           children: <Widget>[
-            Expanded(
-              child: Center(
-                child: Chewie(
-                  controller: _chewieController,
-                ),
-              ),
+            Chewie(
+              controller: _chewieController,
             ),
             FlatButton(
               onPressed: () {
