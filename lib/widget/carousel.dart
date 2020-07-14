@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 enum DotPosition {
@@ -118,7 +119,7 @@ class Carousel extends StatefulWidget {
     this.overlayShadowColors,
     this.overlayShadowSize = 0.5,
     this.autoplay = true,
-    this.autoplayDuration = const Duration(seconds: 6),
+    this.autoplayDuration = const Duration(seconds: 1),
     this.onImageTap,
     this.onImageChange,
     this.defaultImage,
@@ -312,6 +313,7 @@ class CarouselState extends State<Carousel> {
           child: Builder(
             builder: (_) {
               Widget pageView = PageView(
+                dragStartBehavior: DragStartBehavior.down,
                 physics: AlwaysScrollableScrollPhysics(),
                 controller: _controller,
                 children: listImages,

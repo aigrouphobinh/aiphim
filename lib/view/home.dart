@@ -165,14 +165,16 @@ class _StateHomepage extends State<Homepage>{
           ),
           child: Carousel(
             dotIncreasedColor: agDarkOrange,
-            images: [
-              NetworkImage('https://vtv1.mediacdn.vn/thumb_w/650/2020/4/20/one-piece-anime-hiatus-15873776419971960853722.jpg'),
-              NetworkImage('https://weblinhtinh.xyz/wp-content/uploads/2019/07/one-piece-ss20.jpg'),
-              NetworkImage('https://gamek.mediacdn.vn/zoom/700_438/2019/10/26/photo-1-1572060315190470419314.jpg'),
-              NetworkImage('https://cdn.tgdd.vn/Files/2020/01/09/1230821/top-10-bo-phim-anime-hay-nhat-moi-thoi-dai-cua-nhat-ban-la-ai-cung-nen-xem-qua-7.jpg'),
-            ],
+            images:listSlider(),
           ),
         ),
     );
+  }
+  List<Widget>  listSlider(){
+   var listslider = new List<Widget>();
+    for (var i = 0 ; i < 10 ; i++){
+    listslider.add(Postslider(context));
+  }
+    return listslider;
   }
 }
